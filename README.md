@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Email Summarizer
+
+## Replit Deployment Instructions
+
+1. Fork this repository
+2. Create a new Repl on Replit
+3. Choose "Import from GitHub"
+4. Select your forked repository
+5. Click "Run"
+
+### Environment Setup
+
+- Ensure all environment variables in `.env.local` are properly configured
+- Install dependencies: `npm install`
+- Start development server: `npm run dev`
+
+### Deployment Notes
+
+- Replit automatically assigns a port via `$PORT`
+- The app is configured to use this dynamic port assignment
 
 ## Getting Started
 
