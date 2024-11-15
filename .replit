@@ -1,4 +1,4 @@
-run = "npm run dev"
+run = "npm install && npm run dev"
 entrypoint = "src/app/page.tsx"
 
 [languages]
@@ -9,6 +9,6 @@ pattern = "**/*.{js,jsx,ts,tsx}"
 syntax = "typescript"
 
 [deployment]
-run = ["sh", "-c", "npm run build && npm run start"]
+run = ["sh", "-c", "npm install && npm run build && npm run start"]
 deploymentTarget = "cloudrun"
 ignorePorts = true
