@@ -9,6 +9,6 @@ pattern = "**/*.{js,jsx,ts,tsx}"
 syntax = "typescript"
 
 [deployment]
-run = ["sh", "-c", "npm run dev"]
+run = ["sh", "-c", "npm run build && npm run start"]
 deploymentTarget = "cloudrun"
 ignorePorts = true
